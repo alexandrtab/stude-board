@@ -1,0 +1,37 @@
+.home-banner {
+	height: 100vh;
+	background-image: url(../../shared/assets/workspace.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	&__txt {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #313131;
+		opacity: 0.85;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 45px;
+		line-height: 50px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+}
+.advertisements {
+	display: flex;
+	margin-bottom: 100px;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.home{
+  &__element{
+    display:flex;
+    margin: 50px 0 50px 0;
+  }
+	&__pagination-btn{
+		text-align: center;
+		padding-bottom:50px;
+	}
+}

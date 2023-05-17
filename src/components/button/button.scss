@@ -1,0 +1,38 @@
+.btn {
+	width: 305px;
+	height: 65px;
+	background: #aa55ea;
+	color: white;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	&:hover{
+		background: #753ba1;
+		transition:0.3s;
+	}
+	&-empty {
+		border: 1px solid #aa55ea;
+		background-color: white;
+    color:#aa55ea;
+		&:hover{
+			color: white;
+		}
+	}
+	&-big {
+		width: 550px;
+		height: 65px;
+	}
+	&-small {
+		width: 230px;
+		height: 45px;
+	}
+	&-logout{
+		width: 100px;
+		height: 30px;
+		border-radius: 20px;;
+	}
+}

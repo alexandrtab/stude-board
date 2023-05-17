@@ -1,0 +1,99 @@
+@import-normalize;
+@import "../../components/header/header.scss";
+@import "../../components/button/button.scss";
+@import "../../components/categoryBlock/categoryBlock.scss";
+@import "../../components/advertisement/advertisement.scss";
+@import "../../components/groupNumber/groupNumber.scss";
+@import "../../components/footer/footer.scss";
+@import "../../pages/Home/home.scss";
+@import "../../pages/Contact/contact.scss";
+@import "../../pages/About/about.scss";
+@import "../../pages/Card/card.scss";
+@import "../../pages//Notfounpage/notFoundPage.scss";
+@import "../../pages//SignUp/signup.scss";
+
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+header {
+	background-color: white;
+	border-bottom: 1px solid #dcdcdc;
+	padding: 0.5rem 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem 5rem;
+	background: #626262;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.logo {
+	width: 120px;
+	height: 44px;
+}
+.title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #252525;
+}
+a{
+	text-decoration: none;
+}
+textarea {
+	resize: vertical;
+}
+.input {
+	width: 305px;
+	height: 65px;
+	background: #ffffff;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #939393;
+	outline: none;
+	padding-left: 27px;
+	border: 1px solid #bbbbbb;
+	&:focus {
+		box-shadow: 0px 0px 15px #323131;
+	}
+	&-big {
+		width: 550px;
+		height: 65px;
+	}
+	&-huge {
+		width: 980px;
+	}
+	&-submit {
+		width: 340px;
+		height: 65px;
+		left: 685px;
+		top: 937px;
+		background: #aa55ea;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #ffffff;
+		padding-left:0;
+	}
+}

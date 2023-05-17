@@ -1,0 +1,39 @@
+.advertisement {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	height:500px;
+	width: 250px;
+	border: 1px solid #e1e1e1;
+	padding: 16px 16px 33px 16px;
+	&:hover{
+		transform: scale(1.02);
+		transition:0.25s;
+	}
+	img{
+		width:250px;
+		max-height:165px;
+	}
+	&__button {
+		display: flex;
+		justify-content: center;
+		padding-top: 72px;
+	}
+	&__type {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 16px;
+		color: #ff9e0d;
+		margin-bottom: 16px;
+		border-bottom: 1px solid #E2E2E2;
+	}
+	&__date {
+		margin-top: 6px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 16px;
+		color: #9f9f9f;
+	}
+}

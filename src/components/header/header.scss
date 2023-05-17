@@ -1,0 +1,20 @@
+.header-content {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	a{
+		color:black;
+	}
+	&__user-block {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		img{
+			height:44px;
+		}
+		h4{
+			margin: 0 20px;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.news {
+	&__title {
+		font-style: bold;
+		font-weight: 900;
+		font-size: 20px;
+		line-height: 40px;
+		text-transform: uppercase;
+		color: #252525;
+		max-width: 60%;
+	}
+	&__banner {
+		img {
+			width: 100%;
+		}
+	}
+	&__description-head {
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 1px solid #dcdcdc;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 17px;
+		line-height: 23px;
+		text-transform: uppercase;
+		color: #252525;
+	}
+	&__description {
+		max-width:50%;
+		margin: 50px 0 50px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 17px;
+		line-height: 23px;
+		color: #252525;
+	}
+}
