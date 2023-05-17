@@ -1,46 +1,40 @@
-# Getting Started with Create React App
-
+# Stude Board - it's an app using TypeScript.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## And that's it ! Cool ! Nice ! Let's see screenshots below
 
-### `npm test`
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/3271743e-6367-4a9d-875e-4ce46a1b186a)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/45e668b7-ee93-4e11-b97f-ff07a1db7e7a)
 
-### `npm run build`
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/5bb7aa40-db63-4917-80ad-d75954d16d82)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/a4dd41b5-b3fb-4f7f-90e5-9f18b61e636b)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/bc8c8481-6314-4388-a603-6931ae3d9cbe)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/d6f611a7-7953-49b4-afe0-5796533498fe)
 
-### `npm run eject`
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/d9c5e6a7-968d-43ce-8e4f-cd354547adba)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/d4677de5-3f97-478e-8c51-30976664868f)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/f37e27ff-10ed-4358-8729-1ef6dc433179)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/7499bccc-c220-48cc-96be-30dc3aaac826)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![image](https://github.com/alexandrtab/stude-board/assets/74628686/06097da4-829e-4b16-9228-c96c2b178909)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
